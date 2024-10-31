@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 3</title>
+    <style>
+      body {
+        background-color: white;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        flex-wrap: wrap;
+        height: 50rem;  
+        padding: 1rem;
+      }
+
+      section {
+        display: flex;
+        gap: 1em;
+        flex-grow: 1;
+      }
+
+      main {
+        background-color: #3cb371;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1em;
+        padding: 1em;
+        flex-grow: 1;
+        justify-content: start;
+        align-items: start;
+        border-radius: 0.5rem;
+        box-shadow: 5px 5px 5px #2f8d59;
+        flex-direction: column;
+      }
+
+      .items-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem; 
+      }
+
+      .items {
+        background-color: #2f8d59;
+        width: 50px;
+        height: 50px;
+        border-radius: 0.5rem;
+        box-shadow: 5px 5px 5px #226741;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      sidebar{
+        background-color: #ff6347;
+        box-shadow: 5px 5px 5px #e02200;
+        flex-grow: 1;
+        border-radius: 0.5rem;
+        width: 10em;
+        padding: 1em;
+      }
+
+      header {
+        background-color: #1e90ff;
+        box-shadow: 5px 5px 5px #0077ea;
+        width: 100%;
+        height: 50px;
+        margin-bottom: auto;
+        border-radius: 0.5rem;
+      }
+
+      footer {
+        background-color: #4169e1;
+        box-shadow: 5px 5px 5px #1d44b8;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        margin-top: auto;
+        border-radius: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+    <section>
+      <main>
+        <div>main</div>
+        <div class="items-container">
+          <div class="items">item</div>
+          <div class="items">item</div>
+          <div class="items">item</div>
+          <div class="items">item</div>
+          <div class="items">item</div>
+          <div class="items">item</div>
+          <div class="items">item</div>
+          <div class="items">item</div>
+          <div class="items">item</div>
+        </div>
+      </main>
+      <sidebar>sidebar</sidebar>
+    </section>
+    <footer>Footer</footer>
+  </body>
+</html>
